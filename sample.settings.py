@@ -1,0 +1,4 @@
+# Settings
+
+username = ''
+password = ''
