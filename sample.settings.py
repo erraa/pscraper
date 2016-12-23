@@ -2,3 +2,5 @@
 
 username = ''
 password = ''
+webhook = ''
+url = ''
