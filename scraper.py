@@ -36,7 +36,8 @@ def post_to_discord(pic_url):
     data = message
     headers = {"Content-Type": "application/json"}
     r = requests.post(settings.webhook, data=json.dumps(data), headers=headers)
-    if r.status_code == 200:
+    print r.status_code
+    if r.status_code == 204:
         print "Posted Url {}".format(pic_url)
     else:
         print "Couldnt post to discord {}".format(r.text)
