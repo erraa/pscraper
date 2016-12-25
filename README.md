@@ -17,6 +17,7 @@ If you have git installed, clone the repository
     cp sample.settings.py settings.py
     
     // Setup the variables
+    
     vim settings.py
    
 2. Run the scraper
