@@ -9,6 +9,7 @@ If you have git installed, clone the repository
 
 # Usage
 1. Open a new screen 
+
     screen -S pscraper
    
 2. Run the scraper
