@@ -11,6 +11,13 @@ If you have git installed, clone the repository
 1. Open a new screen 
 
     screen -S pscraper
+
+2. Configure settings.py
+
+    cp sample.settings.py settings.py
+    
+    # Setup the variables
+    vim settings.py
    
 2. Run the scraper
 
