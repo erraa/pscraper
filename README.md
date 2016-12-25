@@ -19,3 +19,5 @@ If you have git installed, clone the repository
 # License
 
 Buy me a beer
+
+![alt tag](https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Klauswunderlich.jpg/200px-Klauswunderlich.jpg)
