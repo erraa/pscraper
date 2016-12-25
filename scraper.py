@@ -19,9 +19,12 @@ def get_feed(url, last_url):
 
     """
     f = feedparser.parse(url)
-    pic_url = f.entries[0]['id']
+    try:
+        pic_url = f.entries[0]['id']
+    except:
+        return {}
     if pic_url == last_url:
-        return False
+        return {}
 
     return_dict = {'pic_url': pic_url, 'last_url': pic_url}
     return return_dict
